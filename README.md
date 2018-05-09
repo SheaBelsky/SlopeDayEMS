@@ -1,28 +1,11 @@
-# php-getting-started
+# Slope Day EMS App
+I didn't develop or design this app.
+I've fixed it up and uploaded here for archival purposes, and to make sure that Slope Day will continue to function,
+even if their mapping app is not what we would call modern or secure.
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
-
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
-
-## Deploying
-
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
-```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using PHP on Heroku, see these Dev Center articles:
-
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
+# Installation
+1. Clone the repo
+2. Make a new Heroku app
+3. Initialize a free ClearDB MySQL instance
+4. Connect this repo to your Heroku app
+5. That's it, help make Slope Day awesome

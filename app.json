@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: PHP",
-  "description": "A barebones PHP app that makes use of the Silex web framework",
-  "repository": "https://github.com/heroku/php-getting-started",
+  "name": "Slope Day EMS App",
+  "description": "EMS and Eagle application used for Cornell University's Slope Day",
+  "repository": "https://github.com/SheaBelsky/SlopeDayEMS",
   "addons": []
 }
