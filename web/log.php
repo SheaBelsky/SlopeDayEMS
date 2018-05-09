@@ -18,7 +18,7 @@ $reset = "res";
 
 $link = mysqli_connect($server, $username, $password, $db);
 
-mysqli_query("CREATE TABLE IF NOT EXISTS ems(
+mysqli_query($link, "CREATE TABLE IF NOT EXISTS ems(
 	target TEXT(5000) NOT NULL,
 	log TEXT(5000) NOT NULL,
 	time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
