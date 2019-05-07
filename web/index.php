@@ -63,7 +63,7 @@ if(isset($_POST['code'])) {
         z-index: 1000;
       }
     </style>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAktlbvetc-865EzjhmSORXOvvtZv-kmQE"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtDQobTOCsgqSEzlx2BIK3sSceNNw99I"></script>
     <script type="text/javascript" src="./src/MarkerWithLabel.js"></script>
     <script type="text/javascript" src="./src/ContextMenu.js"></script>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
